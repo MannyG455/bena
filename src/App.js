@@ -38,7 +38,7 @@ function buildModel(transactions) {
     else if (["DISCRETIONARY","DINING","ENTERTAINMENT"].includes(t.category)) weeks[wk].discretionary += amt;
     else weeks[wk].variable += amt;
   });
-  const keys = Object.keys(weeks).sort();
+  Object.keys(weeks).sort();
   const n = keys.length;
   if (n < 2) return null;
   const xs = keys.map((_,i)=>i);
