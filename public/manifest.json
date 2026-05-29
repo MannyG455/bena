@@ -1,0 +1,26 @@
+{
+  "short_name": "Clearflow",
+  "name": "Clearflow — Financial Intelligence",
+  "description": "Personal finance forecasting powered by AI",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#00D4AA",
+  "background_color": "#0A0C0F",
+  "categories": ["finance", "productivity"],
+  "scope": "/"
+}
